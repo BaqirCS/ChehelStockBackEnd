@@ -4,7 +4,6 @@ const reservationSchema = new mongoose.Schema(
     date: {
       type: String,
       required: [true, 'Date of Party is required'],
-      unique: [true, 'Date is unique,please choose different date'],
     },
     requestName: {
       type: String,
